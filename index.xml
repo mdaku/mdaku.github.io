@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://example.org/</link>
+    <link>https://mdaku.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mdaku.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://example.org/about/</link>
+      <link>https://mdaku.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/about/</guid>
+      <guid>https://mdaku.github.io/about/</guid>
       <description>&lt;p&gt;Mark Daku is a former academic and UN worker who has recently turned to writing. His work delves into themes of loneliness, isolation, existentialism, and grief, particularly in the context of hyper-mobility and nomadic lifestyle choices. He often explores these themes through speculative fiction. Currently, he lives in Athens, Greece.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://example.org/writing/</link>
+      <link>https://mdaku.github.io/writing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/writing/</guid>
+      <guid>https://mdaku.github.io/writing/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Creative Non-Fiction&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Warning Labels (under review): An exploration of grief in the wake of loss&lt;/li&gt;&#xA;&lt;li&gt;One In, One Out (under review): A love letter to reading and physical books&lt;/li&gt;&#xA;&lt;li&gt;Ærøskøbing (work-in-progress): A couple struggles to get married in the midst of the pandemic before an international move&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Short Fiction&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The Static of the Universe (under review): An astronaut orbits the moon, reeling from the loss of her crewmates in a lunar lander crash. Struggling with grief and isolation, she is confronted with the possibility of the Earth’s disappearance.&lt;/li&gt;&#xA;&lt;li&gt;Carry On, Gregory (under review): Gregory lives out of his suitcase, traveling the world until he finds it impossible to stop.&lt;/li&gt;&#xA;&lt;li&gt;Even I Will One Day Cease (under review): A man awakens on a ship, drifting in space, alone. A chance encounter with something beautiful transforms him.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Peer-Reviewed Academic Book Chapters&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
