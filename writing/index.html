@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="">
+
+    
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel="stylesheet" media="print" type="text/css" onload="this.media='all'">
+    
+
+    <title>
+      
+      
+          
+      
+    </title>
+    <link rel="canonical" href="https://example.org/writing/">
+
+    <style>
+  * {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline;
+    margin:0;
+    padding:0;
+    color: black;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size:17px;
+    line-height:160%;
+    color:#1d1313;
+    max-width:700px;
+    margin:auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a img {
+    border:none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify { float: left; }
+  .right-justify { float:right; }
+
+  pre, code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f7f7f7;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,q,em,dfn {
+    font-style:italic;
+  }
+
+  .sans,html .gist .gist-file .gist-meta {
+    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
+  }
+
+  .mono,pre,code,tt,p code,li code {
+    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+  }
+
+  .heading,.serif,h1,h2,h3 {
+    font-family:"Old Standard TT",serif;
+  }
+
+  strong {
+    font-weight:600;
+  }
+
+  q:before {
+    content:"\201C";
+  }
+
+  q:after {
+    content:"\201D";
+  }
+
+  del,s {
+    text-decoration:line-through;
+  }
+
+  blockquote {
+    font-family:"Old Standard TT",serif;
+    text-align:center;
+    padding:50px;
+  }
+
+  blockquote p {
+    display:inline-block;
+    font-style:italic;
+  }
+
+  blockquote:before,blockquote:after {
+    font-family:"Old Standard TT",serif;
+    content:'\201C';
+    font-size:35px;
+    color:#403c3b;
+  }
+
+  blockquote:after {
+    content:'\201D';
+  }
+
+  hr {
+    width:40%;
+    height: 1px;
+    background:#403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size:35px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h3 {
+    font-size:22px;
+    margin-top:18px;
+  }
+
+  h1 a,h2 a,h3 a {
+    text-decoration:none;
+  }
+
+  h1,h2 {
+    margin-top:28px;
+  }
+
+  #sub-header, .date {
+    color:#403c3b;
+    font-size:13px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  .posts_listing a,#nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  ul li:before {
+    content:"\00BB \0020";
+  }
+
+  #nav ul li:before, .posts_listing li:before {
+    content:'';
+    margin-right:0;
+  }
+
+  #content {
+    text-align:left;
+    width:100%;
+    font-size:15px;
+    padding:60px 0 80px;
+  }
+
+  #content h1,#content h2 {
+    margin-bottom:5px;
+  }
+
+  #content h2 {
+    font-size:25px;
+  }
+
+  #content .entry-content {
+    margin-top:15px;
+  }
+
+  #content .date {
+    margin-left:3px;
+  }
+
+  #content h1 {
+    font-size:30px;
+  }
+
+  .highlight {
+    margin: 10px 0;
+  }
+
+  .posts_listing {
+    margin:0 0 50px;
+  }
+
+  .posts_listing li {
+    margin:0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,#nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align:center;
+    position:static;
+    margin-top:60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type:none;
+    display:table-cell;
+    font-size:15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(1) {
+    margin-right:0.5em;;
+  }
+
+  #links :nth-child(2) {
+    margin-left:0.5em;;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family:"Old Standard TT",serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:28px;
+    }
+
+    #nav li {
+      font-size:13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:50px;
+      font-size:14px;
+    }
+
+    #content h1 {
+      font-size:25px;
+    }
+
+    #content h2 {
+      font-size:22px;
+    }
+
+    .posts_listing li div {
+      font-size:12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:22px;
+    }
+
+    #nav li {
+      font-size:12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:20px;
+      font-size:12px;
+    }
+
+    #content h1 {
+      font-size:20px;
+    }
+
+    #content h2 {
+      font-size:18px;
+    }
+
+    .posts_listing li div{
+      font-size:12px;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    *, #nav h1 a {
+      color: #FDFDFD;
+    }
+
+    body {
+      background: #121212;
+    }
+
+    pre, code {
+      background-color: #262626;
+    }
+
+    #sub-header, .date {
+      color: #BABABA;
+    }
+
+    hr {
+      background: #EBEBEB;
+    }
+  }
+</style>
+
+
+    </head>
+
+  <body>
+    <section id=nav>
+      <h1><a class="h-card" href="https://example.org/">Mark Daku</a></h1>
+      <ul>
+        
+          <li><a href="https://example.org/about/">About</a></li>
+        
+          <li><a href="https://example.org/contact/">Contact</a></li>
+        
+          <li><a href="https://example.org/writing/">Writing</a></li>
+        
+      </ul>
+    </section>
+
+
+<section id=content>
+  <h1>  </h1>
+
+  
+
+  <div class="entry-content">
+    <p><strong>Creative Non-Fiction</strong></p>
+<ul>
+<li>Warning Labels (under review): An exploration of grief in the wake of loss</li>
+<li>One In, One Out (under review): A love letter to reading and physical books</li>
+<li>Ærøskøbing (work-in-progress): A couple struggles to get married in the midst of the pandemic before an international move</li>
+</ul>
+<p><strong>Short Fiction</strong></p>
+<ul>
+<li>The Static of the Universe (under review): An astronaut orbits the moon, reeling from the loss of her crewmates in a lunar lander crash. Struggling with grief and isolation, she is confronted with the possibility of the Earth’s disappearance.</li>
+<li>Carry On, Gregory (under review): Gregory lives out of his suitcase, traveling the world until he finds it impossible to stop.</li>
+<li>Even I Will One Day Cease (under review): A man awakens on a ship, drifting in space, alone. A chance encounter with something beautiful transforms him.</li>
+</ul>
+<p><strong>Peer-Reviewed Academic Book Chapters</strong></p>
+<ul>
+<li>Marquis, L. &amp; M. Daku. 2021. “Research Ethics” In <a href="https://global.oup.com/academic/product/research-methods-in-the-social-sciences-an-a-z-of-key-concepts-9780198850298?cc=gr&amp;lang=en&amp;">Key Concepts in Research Methods</a>, eds. J-F Morin, C. Olsson, and E. Atikcan. Oxford University Press: UK.</li>
+<li>Crandall, E., K. Puddister, &amp; M. Daku. 2019. “Covering the Court: Media Framing of Physician-Assisted Dying Litigation from Rodriguez to Carter” In <a href="https://www.ubcpress.ca/whats-trending-in-canadian-politics">What&rsquo;s #Trending in Canadian Politics? Understanding Transformations in Power, Media, &amp; the Public Sphere</a>, eds. M. Lalancette, V. Raynauld, &amp; E. Crandall. UBC Press.</li>
+<li>Hengeveld, M. &amp; M. Daku. 2015. <a href="https://www.taylorfrancis.com/chapters/edit/10.4324/9781315770253-20/education-domination-girls-experiences-desegregated-white-south-african-schools-maria-hengeveld-mark-daku">“Education as Domination: Girls&rsquo; experiences in desegregated White South African schools.”</a> In <a href="https://www.taylorfrancis.com/books/edit/10.4324/9781315770253/educating-adolescent-girls-around-globe-supriya-baily-sandra-stacki?refId=9376df4e-7132-4a75-b68f-897cdbfd2ba6&amp;context=ubx">Educating Adolescent Girls around the Globe: Challenges and Implications</a>, eds. S. L. Stacki &amp; S. Baily. Routledge: New York.</li>
+<li>Daku, M. 2013. “Political Leadership and HIV/AIDS in South Africa.” In <a href="https://www.cigionline.org/publications/africa-rising-continents-future-through-eyes-emerging-scholars-0/">Africa Rising: A Continent&rsquo;s Future through the Eyes of Emerging Scholars</a>, eds Erica Shaw &amp; Hayley Mackinnon. CIGI: Waterloo.</li>
+</ul>
+<p><strong>Peer-Reviewed Academic Publications</strong></p>
+<ul>
+<li>Crotty, S. &amp; M. Daku. 2023. <a href="https://www.tandfonline.com/doi/abs/10.1080/23754931.2022.2160653">“An Exploratory Geospatial Typology of Illicit Massage Businesses in the Dallas-Fort Worth Metropolitan Area.”</a> Papers in Applied Geography. 9(2).  </li>
+<li>Allen-Valley, A. &amp; M. Daku. 2019. <a href="https://blogs.shu.edu/ghg/files/2019/11/Spring-Fall-2019-Issue.pdf#page=55">“Delayed Responses: Reactivity in International Responses to the Ebola and Zika Crises.”</a> Global Health Governance. </li>
+<li>Huang, J., F. Majid &amp; M. Daku. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/30635436/">“Estimating effects of Uber ride sharing service on road traffic mortality in South Africa: A quasi-experimental study.”</a> Journal of Epidemiology &amp; Community Health</li>
+<li>Daku, M. 2018. <a href="https://bmcmedethics.biomedcentral.com/articles/10.1186/s12910-018-0281-6">“Ethics Beyond Ethics: The Need for Virtuous Researchers.”</a> BMC Medical Ethics. 19(Suppl 1)</li>
+<li>Soroka, S., M. Daku, D. Hiaeshutter-Rice, J. Pasek &amp; L. Guggenheim. 2017. <a href="https://journals.sagepub.com/doi/abs/10.1177/0093650217725870">“Negativity and Positivity Biases in Economic News Coverage: Traditional Versus Social Media.”</a> Communication Research. 45(7).</li>
+<li>Daku, M. &amp; K. Pelc. 2017. <a href="https://academic.oup.com/jiel/article-abstract/20/2/233/3859142?redirectedFrom=fulltext&amp;login=false">“Who Holds the Most Influence Over WTO Jurisprudence?”</a> International Journal of Economic Law. 20(2).</li>
+<li>Moreau, J. &amp; M. Daku. 2017. <a href="https://intellectdiscover.com/content/journals/10.1386/jams.9.1.145_1">“Much `I do&rsquo; about nothing? The impact of South Africa&rsquo;s Civil Union Act on media representations of marriage.”</a> Journal of African Media Studies. 9(1), 145–61.</li>
+<li>Craft, J. &amp; M. Daku. 2017. <a href="https://www.tandfonline.com/doi/abs/10.1080/13876988.2016.1191200">“A Comparative Assessment of Elite Policy Recruits in Canada.”</a> Journal of Comparative Policy Analysis. 19(3), 207–226.</li>
+<li>Nazif-Muñoz J. I. &amp; M. Daku. 2016. <a href="https://www.researchgate.net/publication/308021973_Are_health_systems_in_Africa_and_Latin_America_and_the_Caribbean_reducing_traffic_fatalities">“Are health systems in Africa and Latin America and the Caribbean reducing traffic fatalities?”</a> Traffic Injury Prevention. 17(S1): 178–181.</li>
+<li>Heymann, J. &amp; M. Daku. 2014. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4162773/">“A Simple Solution: Ensuring Equitable Access to Sick Leave.”</a> Canadian Medical Association Journal. 186(13): 975–976.</li>
+<li>Daku, M., A. Gibbs, &amp; J. Heymann. 2013. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0277953612002262">“Representations of MDR and XDR-TB in South African Newspapers.”</a> Social Science &amp; Medicine. 75(2): 410–418.</li>
+<li>Daku, M., A. Raub, &amp; J. Heymann. 2012. <a href="https://pubmed.ncbi.nlm.nih.gov/22196248/">Maternal Leave Policies and Vaccination Coverage: A Global Analysis.</a> Social Science &amp; Medicine 74(2): 120–124.</li>
+</ul>
+<p><strong>Blogs, Newspapers, and Other Media</strong></p>
+<ul>
+<li>Bouché, V. &amp; M. Daku. 2019. <a href="https://goodauthority.org/news/whos-disproportionately-prosecuted-for-human-trafficking-young-black-men/">“Who’s disproportionately prosecuted for human trafficking? Young black men.”</a> Monkey Cage Blog, The Washington Post.</li>
+<li>Patterson, A. S., &amp; M. Daku. <a href="https://goodauthority.org/news/on-world-aids-day-why-the-politics-of-aids-is-so-important/">“On World AIDS Day, Why the Politics of AIDS is so Important.” 2018.</a> Monkey Cage Blog, The Washington Post.</li>
+<li>Daku, M. 2016. <a href="https://aidspan.org/Blog/view/11826/ACTIVISTS+URGE+CONTINUATION+OF+SPECIAL+INVESTMENTS+IN+COMMUNITY%2C+RIGHTS+AND+GENDER">“Activists urge continuation of special investments in community, rights and gender.”</a> Global Fund Observer, no. 299.</li>
+<li>Oberth, G. &amp; M. Daku. 2016. <a href="https://aidspan.org/Blog/view/12484/GLOBAL+FUND+TOPS+PEPFAR+ON+ENGAGEMENT+OF+KEY+POPULATIONS%3A+SURVEY">“Global Fund tops PEPFAR on engagement of key populations: Survey”</a> Global Fund Observer, no. 294.</li>
+<li>Daku, M. &amp; G. Oberth. 2016. <a href="https://aidspan.org/Blog/view/12675/REPORT+CALLS+FOR+A+FULLY+FUNDED+GLOBAL+FUND+AND+A+FOCUS+ON+THE+LEADERSHIP+OF+NETWORKS+OF+KEY+POPULATIONS">“Report calls for a fully funded Global Fund to achieve results with key populations.”</a> Global Fund Observer, no. 292.</li>
+<li>Daku, M. 2016. <a href="https://goodauthority.org/news/what-the-hiv-aids-epidemic-can-tell-us-about-how-to-fight-zika/">“What the HIV/AIDS epidemic can tell us about how to fight Zika.”</a> Monkey Cage Blog, The Washington Post.</li>
+<li>Daku, M. 2012. <a href="https://africaportal.org/publication/swaziland-hivaids-and-the-global-fund/">“HIV/AIDS, Swaziland, and the Global Fund.”</a> Africa Portal (36).</li>
+<li>Daku, M. 2011. <a href="https://africaportal.org/publication/tuberculosis-and-drug-resistant-tuberculosis-in-south-africa/">“Tuberculosis and Drug Resistant Tuberculosis in South Africa.”</a> Africa Portal (16).</li>
+</ul>
+
+  </div>
+
+  <div id=links>
+    
+    
+      <a href="https://example.org/about/">&nbsp;&raquo;</a>
+    
+  </div>
+</section>
+
+</body>
+</html>
+
+
+
