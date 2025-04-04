@@ -2,13 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mdaku.github.io/</loc>
+    <lastmod>2025-04-03T19:52:34+03:00</lastmod>
+  </url><url>
+    <loc>https://mdaku.github.io/posts/</loc>
+    <lastmod>2025-04-03T19:52:34+03:00</lastmod>
+  </url><url>
+    <loc>https://mdaku.github.io/posts/waiting-first-submissions/</loc>
+    <lastmod>2025-04-03T19:52:34+03:00</lastmod>
+  </url><url>
     <loc>https://mdaku.github.io/about/</loc>
+  </url><url>
+    <loc>https://mdaku.github.io/contact/</loc>
   </url><url>
     <loc>https://mdaku.github.io/writing/</loc>
   </url><url>
     <loc>https://mdaku.github.io/categories/</loc>
-  </url><url>
-    <loc>https://mdaku.github.io/</loc>
   </url><url>
     <loc>https://mdaku.github.io/tags/</loc>
   </url>
