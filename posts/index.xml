@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://mdaku.github.io/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Apr 2025 19:52:34 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mdaku.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Waiting On First Submissions</title>
-      <link>http://localhost:1313/posts/waiting-first-submissions/</link>
+      <link>https://mdaku.github.io/posts/waiting-first-submissions/</link>
       <pubDate>Thu, 03 Apr 2025 19:52:34 +0300</pubDate>
-      <guid>http://localhost:1313/posts/waiting-first-submissions/</guid>
+      <guid>https://mdaku.github.io/posts/waiting-first-submissions/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s been a long time coming. I&amp;rsquo;ve been writing forever, but never bothered&#xA;to submit anything anywhere.  I&amp;rsquo;m not sure what changed, but something snapped&#xA;and now I&amp;rsquo;m all in.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m currently waiting on five submissions. I&amp;rsquo;ll post here after decisions are&#xA;made and I have something to share.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a strange feeling that I don&amp;rsquo;t really care if these pieces are rejected or not,&#xA;the one thing I learned in academia was that it&amp;rsquo;s rarely the case that something shouldn&amp;rsquo;t be published, it&amp;rsquo;s really just a question of fit.  So I am focusing on trying to find the right home for these pieces while at the same time consistently producing more.&lt;/p&gt;</description>
     </item>
   </channel>
